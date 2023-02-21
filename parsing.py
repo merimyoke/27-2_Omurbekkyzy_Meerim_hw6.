@@ -16,16 +16,17 @@ while True:
             file_name.write(str(list_name))
             print(list_name)
     if client == 1:
-        opening_new_files(fio_list, name='names_list')
+        opening_new_files(fio_list, name='names_list.txt')
     elif client == 2:
-        opening_new_files(email_list, name='emails_list')
+        opening_new_files(email_list, name='emails_list.txt')
     elif client == 3:
-        opening_new_files(file_list, name='files_list')
+        opening_new_files(file_list, name='files_list.txt')
     elif client == 4:
-        opening_new_files(color_list, name='color_list')
+        opening_new_files(color_list, name='color_list.txt')
     elif client == 5:
         print('the end')
         break
+
 
 
 
